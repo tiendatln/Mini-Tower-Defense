@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: a659100112fe0574bb9295ccfbb8010e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5310998971447876784
+    second: Tower 05 - Level 03 - Projectile - Impact_0
+  - first:
+      213: 1487639032215904045
+    second: Tower 05 - Level 03 - Projectile - Impact_1
+  - first:
+      213: -2724007416796700566
+    second: Tower 05 - Level 03 - Projectile - Impact_2
+  - first:
+      213: 7586708420835661910
+    second: Tower 05 - Level 03 - Projectile - Impact_3
+  - first:
+      213: 8189394512634715485
+    second: Tower 05 - Level 03 - Projectile - Impact_4
+  - first:
+      213: 610317100082919824
+    second: Tower 05 - Level 03 - Projectile - Impact_5
+  - first:
+      213: -4623940591235123488
+    second: Tower 05 - Level 03 - Projectile - Impact_6
+  - first:
+      213: -4015150083823034489
+    second: Tower 05 - Level 03 - Projectile - Impact_7
+  - first:
+      213: 1906159193792454486
+    second: Tower 05 - Level 03 - Projectile - Impact_8
+  - first:
+      213: -4962373661227248661
+    second: Tower 05 - Level 03 - Projectile - Impact_9
+  - first:
+      213: -3700361679638586962
+    second: Tower 05 - Level 03 - Projectile - Impact_10
+  - first:
+      213: 4380160505586605832
+    second: Tower 05 - Level 03 - Projectile - Impact_11
+  - first:
+      213: -686500560395124493
+    second: Tower 05 - Level 03 - Projectile - Impact_12
+  - first:
+      213: 7499979305293837644
+    second: Tower 05 - Level 03 - Projectile - Impact_13
+  - first:
+      213: -5222135584485826406
+    second: Tower 05 - Level 03 - Projectile - Impact_14
+  - first:
+      213: 848164193503766658
+    second: Tower 05 - Level 03 - Projectile - Impact_15
+  - first:
+      213: -2506467898126188058
+    second: Tower 05 - Level 03 - Projectile - Impact_16
+  - first:
+      213: -1280506106476668405
+    second: Tower 05 - Level 03 - Projectile - Impact_17
+  - first:
+      213: 5259806937522167757
+    second: Tower 05 - Level 03 - Projectile - Impact_18
+  - first:
+      213: 1048524708854334489
+    second: Tower 05 - Level 03 - Projectile - Impact_19
+  - first:
+      213: -3377910265289223108
+    second: Tower 05 - Level 03 - Projectile - Impact_20
+  - first:
+      213: 7394309279802731462
+    second: Tower 05 - Level 03 - Projectile - Impact_21
+  - first:
+      213: -8611470087914367625
+    second: Tower 05 - Level 03 - Projectile - Impact_22
+  - first:
+      213: -1649729818290572082
+    second: Tower 05 - Level 03 - Projectile - Impact_23
+  - first:
+      213: 4995617340698770376
+    second: Tower 05 - Level 03 - Projectile - Impact_24
+  - first:
+      213: 3160177714127066490
+    second: Tower 05 - Level 03 - Projectile - Impact_25
+  - first:
+      213: -7397905361490250465
+    second: Tower 05 - Level 03 - Projectile - Impact_26
+  - first:
+      213: 6019518211755863124
+    second: Tower 05 - Level 03 - Projectile - Impact_27
+  - first:
+      213: -6348943494777136932
+    second: Tower 05 - Level 03 - Projectile - Impact_28
+  - first:
+      213: 4813985596837700747
+    second: Tower 05 - Level 03 - Projectile - Impact_29
+  - first:
+      213: -7173132775733962078
+    second: Tower 05 - Level 03 - Projectile - Impact_30
+  - first:
+      213: 1687586391060143786
+    second: Tower 05 - Level 03 - Projectile - Impact_31
+  - first:
+      213: -1524861352196918183
+    second: Tower 05 - Level 03 - Projectile - Impact_32
+  - first:
+      213: 3166915222577142458
+    second: Tower 05 - Level 03 - Projectile - Impact_33
+  - first:
+      213: 3627614720908664899
+    second: Tower 05 - Level 03 - Projectile - Impact_34
+  - first:
+      213: -439093846896781113
+    second: Tower 05 - Level 03 - Projectile - Impact_35
+  - first:
+      213: 8256854627360549144
+    second: Tower 05 - Level 03 - Projectile - Impact_36
+  - first:
+      213: -2126192921060839537
+    second: Tower 05 - Level 03 - Projectile - Impact_37
+  - first:
+      213: 7602981458516510578
+    second: Tower 05 - Level 03 - Projectile - Impact_38
+  - first:
+      213: -2256592432723722826
+    second: Tower 05 - Level 03 - Projectile - Impact_39
+  - first:
+      213: 2336610507055041702
+    second: Tower 05 - Level 03 - Projectile - Impact_40
+  - first:
+      213: 2842062092150004394
+    second: Tower 05 - Level 03 - Projectile - Impact_41
+  - first:
+      213: 2185281408251833894
+    second: Tower 05 - Level 03 - Projectile - Impact_42
+  - first:
+      213: 5788861404350908324
+    second: Tower 05 - Level 03 - Projectile - Impact_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_0
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 71
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc9d97fc6574b940800000000000000
+      internalID: 5310998971447876784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_1
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 71
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f1c3561d725a410800000000000000
+      internalID: 1487639032215904045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_2
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 74
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60ad44dfa1623ad0800000000000000
+      internalID: -2724007416796700566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_3
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 74
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658df56dc17694960800000000000000
+      internalID: 7586708420835661910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_4
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 84
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d10238be296a170800000000000000
+      internalID: 8189394512634715485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_5
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 84
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099f9ce3b28487800800000000000000
+      internalID: 610317100082919824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_6
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 52
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6bbece78674dfb0800000000000000
+      internalID: -4623940591235123488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_7
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 52
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f19dd95425748c0800000000000000
+      internalID: -4015150083823034489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_8
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 62
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f185fffa9047a10800000000000000
+      internalID: 1906159193792454486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_9
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 66
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be39bc7627b122bb0800000000000000
+      internalID: -4962373661227248661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_10
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 66
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea99ca068aca5acc0800000000000000
+      internalID: -3700361679638586962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_11
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 62
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f5fa2d5c479cc30800000000000000
+      internalID: 4380160505586605832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_12
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 52
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0ca87a06f0976f0800000000000000
+      internalID: -686500560395124493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_13
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 52
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45f1da0177451860800000000000000
+      internalID: 7499979305293837644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_14
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 57
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90abcd9a5f3787b0800000000000000
+      internalID: -5222135584485826406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_15
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 57
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2886ff817d845cb00800000000000000
+      internalID: 848164193503766658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_16
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 67
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1c44bf9bc373dd0800000000000000
+      internalID: -2506467898126188058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_17
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 67
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a5db60b7aba3ee0800000000000000
+      internalID: -1280506106476668405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 36
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfd422ca869ef840800000000000000
+      internalID: 5259806937522167757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_19
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 53
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9148b79daab1d8e00800000000000000
+      internalID: 1048524708854334489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_20
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 53
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c345a4ab2804f11d0800000000000000
+      internalID: -3377910265289223108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_21
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 44
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb240efc1ddd9660800000000000000
+      internalID: 7394309279802731462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_22
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 45
+        width: 101
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77556ff9499ed7880800000000000000
+      internalID: -8611470087914367625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_23
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 44
+        width: 198
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4bb6d887bfa19e0800000000000000
+      internalID: -1649729818290572082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_24
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 24
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbb122e08ff35540800000000000000
+      internalID: 4995617340698770376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_25
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 24
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7556ad33e43bdb20800000000000000
+      internalID: 3160177714127066490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_26
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 30
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f157a6ef44c555990800000000000000
+      internalID: -7397905361490250465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_27
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 23
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ce3babbef998350800000000000000
+      internalID: 6019518211755863124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_28
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 17
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd818c6978504e7a0800000000000000
+      internalID: -6348943494777136932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_29
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 17
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84ab5d0566bec240800000000000000
+      internalID: 4813985596837700747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_30
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 23
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa5aafceb9e37c90800000000000000
+      internalID: -7173132775733962078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_31
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 30
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae5ce6a1e28b6710800000000000000
+      internalID: 1687586391060143786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_32
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 26
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954b492edaa96dae0800000000000000
+      internalID: -1524861352196918183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_33
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 26
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abadc7bad9423fb20800000000000000
+      internalID: 3166915222577142458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_34
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3402db56e50e75230800000000000000
+      internalID: 3627614720908664899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_35
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c858a0097608e9f0800000000000000
+      internalID: -439093846896781113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_36
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 9
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819add1798d369270800000000000000
+      internalID: 8256854627360549144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_37
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 9
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fe738adce3e72e0800000000000000
+      internalID: -2126192921060839537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_38
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 2
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27702ccaa57338960800000000000000
+      internalID: 7602981458516510578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_39
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 2
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdfaac6329fea0e0800000000000000
+      internalID: -2256592432723722826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_40
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 18
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac067350ee4d6020800000000000000
+      internalID: 2336610507055041702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_41
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 18
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa54383a68017720800000000000000
+      internalID: 2842062092150004394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_42
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ead19dcdda35e10800000000000000
+      internalID: 2185281408251833894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 03 - Projectile - Impact_43
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a70e4cc6ca265050800000000000000
+      internalID: 5788861404350908324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tower 05 - Level 03 - Projectile - Impact_0: 5310998971447876784
+      Tower 05 - Level 03 - Projectile - Impact_1: 1487639032215904045
+      Tower 05 - Level 03 - Projectile - Impact_10: -3700361679638586962
+      Tower 05 - Level 03 - Projectile - Impact_11: 4380160505586605832
+      Tower 05 - Level 03 - Projectile - Impact_12: -686500560395124493
+      Tower 05 - Level 03 - Projectile - Impact_13: 7499979305293837644
+      Tower 05 - Level 03 - Projectile - Impact_14: -5222135584485826406
+      Tower 05 - Level 03 - Projectile - Impact_15: 848164193503766658
+      Tower 05 - Level 03 - Projectile - Impact_16: -2506467898126188058
+      Tower 05 - Level 03 - Projectile - Impact_17: -1280506106476668405
+      Tower 05 - Level 03 - Projectile - Impact_18: 5259806937522167757
+      Tower 05 - Level 03 - Projectile - Impact_19: 1048524708854334489
+      Tower 05 - Level 03 - Projectile - Impact_2: -2724007416796700566
+      Tower 05 - Level 03 - Projectile - Impact_20: -3377910265289223108
+      Tower 05 - Level 03 - Projectile - Impact_21: 7394309279802731462
+      Tower 05 - Level 03 - Projectile - Impact_22: -8611470087914367625
+      Tower 05 - Level 03 - Projectile - Impact_23: -1649729818290572082
+      Tower 05 - Level 03 - Projectile - Impact_24: 4995617340698770376
+      Tower 05 - Level 03 - Projectile - Impact_25: 3160177714127066490
+      Tower 05 - Level 03 - Projectile - Impact_26: -7397905361490250465
+      Tower 05 - Level 03 - Projectile - Impact_27: 6019518211755863124
+      Tower 05 - Level 03 - Projectile - Impact_28: -6348943494777136932
+      Tower 05 - Level 03 - Projectile - Impact_29: 4813985596837700747
+      Tower 05 - Level 03 - Projectile - Impact_3: 7586708420835661910
+      Tower 05 - Level 03 - Projectile - Impact_30: -7173132775733962078
+      Tower 05 - Level 03 - Projectile - Impact_31: 1687586391060143786
+      Tower 05 - Level 03 - Projectile - Impact_32: -1524861352196918183
+      Tower 05 - Level 03 - Projectile - Impact_33: 3166915222577142458
+      Tower 05 - Level 03 - Projectile - Impact_34: 3627614720908664899
+      Tower 05 - Level 03 - Projectile - Impact_35: -439093846896781113
+      Tower 05 - Level 03 - Projectile - Impact_36: 8256854627360549144
+      Tower 05 - Level 03 - Projectile - Impact_37: -2126192921060839537
+      Tower 05 - Level 03 - Projectile - Impact_38: 7602981458516510578
+      Tower 05 - Level 03 - Projectile - Impact_39: -2256592432723722826
+      Tower 05 - Level 03 - Projectile - Impact_4: 8189394512634715485
+      Tower 05 - Level 03 - Projectile - Impact_40: 2336610507055041702
+      Tower 05 - Level 03 - Projectile - Impact_41: 2842062092150004394
+      Tower 05 - Level 03 - Projectile - Impact_42: 2185281408251833894
+      Tower 05 - Level 03 - Projectile - Impact_43: 5788861404350908324
+      Tower 05 - Level 03 - Projectile - Impact_5: 610317100082919824
+      Tower 05 - Level 03 - Projectile - Impact_6: -4623940591235123488
+      Tower 05 - Level 03 - Projectile - Impact_7: -4015150083823034489
+      Tower 05 - Level 03 - Projectile - Impact_8: 1906159193792454486
+      Tower 05 - Level 03 - Projectile - Impact_9: -4962373661227248661
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

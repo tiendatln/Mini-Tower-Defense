@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 1e7d1b43cc931cd43895f1480691f636
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2122529509207529927
+    second: Tower 06 - Weapon - Impact_0
+  - first:
+      213: 4505386910420257887
+    second: Tower 06 - Weapon - Impact_1
+  - first:
+      213: -1761778533548879445
+    second: Tower 06 - Weapon - Impact_2
+  - first:
+      213: 1602430451000104179
+    second: Tower 06 - Weapon - Impact_3
+  - first:
+      213: -9164922176807230156
+    second: Tower 06 - Weapon - Impact_4
+  - first:
+      213: 6558189117165395921
+    second: Tower 06 - Weapon - Impact_5
+  - first:
+      213: 6397306493608342505
+    second: Tower 06 - Weapon - Impact_6
+  - first:
+      213: 4749462807298444247
+    second: Tower 06 - Weapon - Impact_7
+  - first:
+      213: 3671646593023351381
+    second: Tower 06 - Weapon - Impact_8
+  - first:
+      213: -6181511455250373509
+    second: Tower 06 - Weapon - Impact_9
+  - first:
+      213: -883315386761716656
+    second: Tower 06 - Weapon - Impact_10
+  - first:
+      213: -7613198037634815893
+    second: Tower 06 - Weapon - Impact_11
+  - first:
+      213: 738000009416542718
+    second: Tower 06 - Weapon - Impact_12
+  - first:
+      213: 8308982560904706181
+    second: Tower 06 - Weapon - Impact_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tower 06 - Weapon - Impact_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 25
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936a66238a24b82e0800000000000000
+      internalID: -2122529509207529927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 06 - Weapon - Impact_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 21
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c4b434689568e30800000000000000
+      internalID: 4505386910420257887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 06 - Weapon - Impact_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 20
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba119ee02c7ec87e0800000000000000
+      internalID: -1761778533548879445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 06 - Weapon - Impact_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 33
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f45121510afc3610800000000000000
+      internalID: 1602430451000104179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 06 - Weapon - Impact_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 18
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4352e4986d7afc080800000000000000
+      internalID: -9164922176807230156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 06 - Weapon - Impact_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 31
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfd97a514e530b50800000000000000
+      internalID: 6558189117165395921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 06 - Weapon - Impact_6
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 20
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e333de8c5cc7c850800000000000000
+      internalID: 6397306493608342505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 06 - Weapon - Impact_7
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 28
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db04fe624b79e140800000000000000
+      internalID: 4749462807298444247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 06 - Weapon - Impact_8
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 36
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a1ee58f1f44f230800000000000000
+      internalID: 3671646593023351381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 06 - Weapon - Impact_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 22
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b742bce151cd63aa0800000000000000
+      internalID: -6181511455250373509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 06 - Weapon - Impact_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c5e63f555ddb3f0800000000000000
+      internalID: -883315386761716656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 06 - Weapon - Impact_11
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b686312a8bc785690800000000000000
+      internalID: -7613198037634815893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 06 - Weapon - Impact_12
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 29
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef902853917ed3a00800000000000000
+      internalID: 738000009416542718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 06 - Weapon - Impact_13
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 21
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588f3a3cd9f6f4370800000000000000
+      internalID: 8308982560904706181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tower 06 - Weapon - Impact_0: -2122529509207529927
+      Tower 06 - Weapon - Impact_1: 4505386910420257887
+      Tower 06 - Weapon - Impact_10: -883315386761716656
+      Tower 06 - Weapon - Impact_11: -7613198037634815893
+      Tower 06 - Weapon - Impact_12: 738000009416542718
+      Tower 06 - Weapon - Impact_13: 8308982560904706181
+      Tower 06 - Weapon - Impact_2: -1761778533548879445
+      Tower 06 - Weapon - Impact_3: 1602430451000104179
+      Tower 06 - Weapon - Impact_4: -9164922176807230156
+      Tower 06 - Weapon - Impact_5: 6558189117165395921
+      Tower 06 - Weapon - Impact_6: 6397306493608342505
+      Tower 06 - Weapon - Impact_7: 4749462807298444247
+      Tower 06 - Weapon - Impact_8: 3671646593023351381
+      Tower 06 - Weapon - Impact_9: -6181511455250373509
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

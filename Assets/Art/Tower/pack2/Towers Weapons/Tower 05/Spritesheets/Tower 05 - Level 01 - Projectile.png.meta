@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: dc2926e32a276c24e9b79e067043d585
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2340721285823272508
+    second: Tower 05 - Level 01 - Projectile_0
+  - first:
+      213: 34851657793603098
+    second: Tower 05 - Level 01 - Projectile_1
+  - first:
+      213: 1580182649715797469
+    second: Tower 05 - Level 01 - Projectile_2
+  - first:
+      213: 8432614744548677962
+    second: Tower 05 - Level 01 - Projectile_3
+  - first:
+      213: -2059237502821793533
+    second: Tower 05 - Level 01 - Projectile_4
+  - first:
+      213: 436375999284788386
+    second: Tower 05 - Level 01 - Projectile_5
+  - first:
+      213: 903310981912968425
+    second: Tower 05 - Level 01 - Projectile_6
+  - first:
+      213: -5177446833027150133
+    second: Tower 05 - Level 01 - Projectile_7
+  - first:
+      213: -8026197705484681676
+    second: Tower 05 - Level 01 - Projectile_8
+  - first:
+      213: -6519224725890814790
+    second: Tower 05 - Level 01 - Projectile_9
+  - first:
+      213: 5364732693742800913
+    second: Tower 05 - Level 01 - Projectile_10
+  - first:
+      213: 8608832151370175550
+    second: Tower 05 - Level 01 - Projectile_11
+  - first:
+      213: -2246131017234568913
+    second: Tower 05 - Level 01 - Projectile_12
+  - first:
+      213: 3410723785103802489
+    second: Tower 05 - Level 01 - Projectile_13
+  - first:
+      213: 5107746865310132626
+    second: Tower 05 - Level 01 - Projectile_14
+  - first:
+      213: -2869426416165817822
+    second: Tower 05 - Level 01 - Projectile_15
+  - first:
+      213: 3041991540385876871
+    second: Tower 05 - Level 01 - Projectile_16
+  - first:
+      213: 2216588166118590826
+    second: Tower 05 - Level 01 - Projectile_17
+  - first:
+      213: -3917887380413712027
+    second: Tower 05 - Level 01 - Projectile_18
+  - first:
+      213: 7837269581541474815
+    second: Tower 05 - Level 01 - Projectile_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3611b79b99eb7020800000000000000
+      internalID: 2340721285823272508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 19
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a160f9ae561db7000800000000000000
+      internalID: 34851657793603098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 24
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddab8c6fbfede510800000000000000
+      internalID: 1580182649715797469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_3
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 9
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a499b88ae6aa60570800000000000000
+      internalID: 8432614744548677962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_4
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 19
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3010528c66e1c63e0800000000000000
+      internalID: -2059237502821793533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_5
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac30e9c8a15e0600800000000000000
+      internalID: 436375999284788386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_6
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 10
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecb1a65d84398c00800000000000000
+      internalID: 903310981912968425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_7
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 10
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce02f169830628b0800000000000000
+      internalID: -5177446833027150133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 8
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43eb78326b73d9090800000000000000
+      internalID: -8026197705484681676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 10
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abca552f6af0785a0800000000000000
+      internalID: -6519224725890814790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110d67d16fb537a40800000000000000
+      internalID: 5364732693742800913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_11
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 10
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e349169ea37b87770800000000000000
+      internalID: 8608832151370175550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_12
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 8
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f292fb68db324d0e0800000000000000
+      internalID: -2246131017234568913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97086163633555f20800000000000000
+      internalID: 3410723785103802489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_14
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 10
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299ec6546bc52e640800000000000000
+      internalID: 5107746865310132626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_15
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 10
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222705b90efbd28d0800000000000000
+      internalID: -2869426416165817822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_16
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 10
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b81765033573a20800000000000000
+      internalID: 3041991540385876871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_17
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 10
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6945de6137e2ce10800000000000000
+      internalID: 2216588166118590826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56974747f2ed0a9c0800000000000000
+      internalID: -3917887380413712027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower 05 - Level 01 - Projectile_19
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff101c8292393cc60800000000000000
+      internalID: 7837269581541474815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tower 05 - Level 01 - Projectile_0: 2340721285823272508
+      Tower 05 - Level 01 - Projectile_1: 34851657793603098
+      Tower 05 - Level 01 - Projectile_10: 5364732693742800913
+      Tower 05 - Level 01 - Projectile_11: 8608832151370175550
+      Tower 05 - Level 01 - Projectile_12: -2246131017234568913
+      Tower 05 - Level 01 - Projectile_13: 3410723785103802489
+      Tower 05 - Level 01 - Projectile_14: 5107746865310132626
+      Tower 05 - Level 01 - Projectile_15: -2869426416165817822
+      Tower 05 - Level 01 - Projectile_16: 3041991540385876871
+      Tower 05 - Level 01 - Projectile_17: 2216588166118590826
+      Tower 05 - Level 01 - Projectile_18: -3917887380413712027
+      Tower 05 - Level 01 - Projectile_19: 7837269581541474815
+      Tower 05 - Level 01 - Projectile_2: 1580182649715797469
+      Tower 05 - Level 01 - Projectile_3: 8432614744548677962
+      Tower 05 - Level 01 - Projectile_4: -2059237502821793533
+      Tower 05 - Level 01 - Projectile_5: 436375999284788386
+      Tower 05 - Level 01 - Projectile_6: 903310981912968425
+      Tower 05 - Level 01 - Projectile_7: -5177446833027150133
+      Tower 05 - Level 01 - Projectile_8: -8026197705484681676
+      Tower 05 - Level 01 - Projectile_9: -6519224725890814790
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
