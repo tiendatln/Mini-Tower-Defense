@@ -6,6 +6,7 @@ class EnemySpawnerAuthoring : MonoBehaviour
     public GameObject EnemyPrefab;
     public float SpawnInterval = 1f;
     public int MaxEnemy = 20;
+    public float TimeWaitTurn_1 = 2f;
 }
 
 class EnemySpawnerAuthoringBaker : Baker<EnemySpawnerAuthoring>
@@ -23,7 +24,8 @@ class EnemySpawnerAuthoringBaker : Baker<EnemySpawnerAuthoring>
                 SpawnInterval = authoring.SpawnInterval,
                 Timer = 0f,
                 MaxEnemy = authoring.MaxEnemy,
-                SpawnedEnemy = 0
+                SpawnedEnemy = 0,
+                TimeWaitTurn_1 = authoring.TimeWaitTurn_1
             });
     }
 }

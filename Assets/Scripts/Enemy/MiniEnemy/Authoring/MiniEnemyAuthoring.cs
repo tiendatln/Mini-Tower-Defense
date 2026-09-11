@@ -17,7 +17,8 @@ class MiniEnemyAuthoringBaker : Baker<MiniEnemyAuthoring>
         AddComponent(entity, new MimiEnemyComponent
         {
             MoveSpeed = authoring.MoveSpeed,
-            Health = authoring.Health
+            Health = authoring.Health,
+            PathIndex = 0
         });
 
     }

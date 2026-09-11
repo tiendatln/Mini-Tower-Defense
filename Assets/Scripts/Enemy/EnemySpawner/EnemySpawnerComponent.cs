@@ -7,4 +7,5 @@ public struct EnemySpawnerComponent : IComponentData
     public float Timer;
     public int MaxEnemy;
     public int SpawnedEnemy;
+    public float TimeWaitTurn_1;
 }
