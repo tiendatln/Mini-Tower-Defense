@@ -6,7 +6,7 @@ class EnemySpawnerAuthoring : MonoBehaviour
     public GameObject EnemyPrefab;
     public float SpawnInterval = 1f;
     public int MaxEnemy = 20;
-    public float TimeWaitTurn_1 = 2f;
+    public float TimeWaitTurn_1 = 4f;
 }
 
 class EnemySpawnerAuthoringBaker : Baker<EnemySpawnerAuthoring>

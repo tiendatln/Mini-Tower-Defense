@@ -26,7 +26,7 @@ partial struct EnemySpawnSystem : ISystem
 
         GridManager gridManager = mapComponent.MapRef.Value;
 
-        List<Vector3> vector3s = gridManager.GetSpawnPoint();
+        List<Vector3> vector3s = gridManager.GetFirstGraphPoint();
 
         EntityCommandBuffer ecb =
             new EntityCommandBuffer(state.WorldUpdateAllocator);
@@ -51,18 +51,28 @@ partial struct EnemySpawnSystem : ISystem
 
             spawner.ValueRW.Timer = 0f;
 
-            Entity enemy = ecb.Instantiate(
+
+
+            if (spawner.ValueRW.TimeWaitTurn_1 <= 0)
+            {
+
+                Entity enemy = ecb.Instantiate(
                 spawner.ValueRO.EnemyPrefab
             );
-            ecb.SetComponent(
-                            enemy,
-                            LocalTransform.FromPosition(
-                                vector3s[0]
-                            )
-                        );
+                ecb.SetComponent(
+                              enemy,
+                              LocalTransform.FromPosition(
+                                  vector3s[0]
+                              )
+                          );
 
 
-            spawner.ValueRW.SpawnedEnemy++;
+                spawner.ValueRW.SpawnedEnemy++;
+            }
+
+
+
+
         }
 
         ecb.Playback(state.EntityManager);

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f84f013c30daa41a082078548b1705, type: 3}
+  m_Name: PathGraphMap01_1
+  m_EditorClassIdentifier: Assembly-CSharp::PathGraphAsset
+  nodes:
+  - Id: 1
+    CellPosition: {x: -10, y: 0.5, z: 0}
+    NeighborIds: 02000000
+  - Id: 2
+    CellPosition: {x: -1, y: 0.5, z: 0}
+    NeighborIds: 03000000
+  - Id: 3
+    CellPosition: {x: 0, y: 1.5, z: 0}
+    NeighborIds: 04000000
+  - Id: 4
+    CellPosition: {x: 2, y: 1.5, z: 0}
+    NeighborIds: 05000000
+  - Id: 5
+    CellPosition: {x: 3, y: 0.5, z: 0}
+    NeighborIds: 06000000
+  - Id: 6
+    CellPosition: {x: 10, y: 0.5, z: 0}
+    NeighborIds: 
