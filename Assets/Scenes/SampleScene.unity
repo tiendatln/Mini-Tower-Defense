@@ -1691,6 +1691,8 @@ MonoBehaviour:
   blockedTilemap: {fileID: 743002157}
   spawnTilemap: {fileID: 1075817429}
   goalTilemap: {fileID: 1653204599}
+  pathGraphAsset:
+  - {fileID: 11400000, guid: 8891e871a61461643adea63c9e4fea85, type: 2}
 --- !u!1 &1075817426
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using Unity.Entities;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -17,6 +18,9 @@ public class GridManager : MonoBehaviour
     [SerializeField] private Tilemap spawnTilemap;
 
     [SerializeField] private Tilemap goalTilemap;
+
+    [Header("Path Graph")]
+    [SerializeField] public List<PathGraphAsset> pathGraphAsset;
 
     public int Width => width;
     public int Height => height;
@@ -54,89 +58,155 @@ public class GridManager : MonoBehaviour
         return TileType.None;
     }
 
-    /// <summary>
-    /// Tìm đường đi bằng SPFA từ vị trí world bắt đầu đến vị trí world đích.
-    /// </summary>
-    public List<Vector3> FindPath(Vector3 startWorldPosition, Vector3 targetWorldPosition)
-    {
-        Vector3Int startCell = groundTilemap.WorldToCell(startWorldPosition);
-        Vector3Int targetCell = groundTilemap.WorldToCell(targetWorldPosition);
-        List<Vector3Int> cellPath = FindPath(startCell, targetCell);
-        List<Vector3> worldPath = new List<Vector3>(cellPath.Count);
-
-        foreach (Vector3Int cell in cellPath)
-        {
-            worldPath.Add(groundTilemap.GetCellCenterWorld(cell));
-        }
-
-        return worldPath;
-    }
 
     /// <summary>
-    /// Tìm đường đi ngắn nhất bằng SPFA giữa hai cell, chỉ di chuyển theo bốn hướng.
+    /// Tìm đường đi ngắn nhất bằng SPFA giữa hai vị trí node.
     /// </summary>
-    public List<Vector3Int> FindPath(Vector3Int startCell, Vector3Int targetCell)
+    public List<Vector3> FindPath(List<PathNode> pathNodeDefinitions, Vector3 startPosition, Vector3 targetPosition)
     {
-        if (!IsWalkable(startCell) || !IsWalkable(targetCell))
+        List<Vector3> path = new List<Vector3>();
+        if (pathNodeDefinitions == null || pathNodeDefinitions.Count == 0)
         {
-            return new List<Vector3Int>();
+            return path;
         }
 
-        Dictionary<Vector3Int, int> distances = new Dictionary<Vector3Int, int>
+        Dictionary<int, PathNode> nodesById = new Dictionary<int, PathNode>();
+        foreach (PathNode node in pathNodeDefinitions)
         {
-            [startCell] = 0
-        };
-        Dictionary<Vector3Int, Vector3Int> previousPositions = new Dictionary<Vector3Int, Vector3Int>();
-        HashSet<Vector3Int> positionsInQueue = new HashSet<Vector3Int>();
-        Queue<Vector3Int> positionsToVisit = new Queue<Vector3Int>();
-        positionsToVisit.Enqueue(startCell);
-        positionsInQueue.Add(startCell);
-
-        while (positionsToVisit.Count > 0)
-        {
-            Vector3Int currentPosition = positionsToVisit.Dequeue();
-            positionsInQueue.Remove(currentPosition);
-
-            if (currentPosition == targetCell)
+            if (node == null || !nodesById.TryAdd(node.Id, node))
             {
-                return BuildPath(startCell, targetCell, previousPositions);
+                return path;
+            }
+        }
+
+        foreach (PathNode node in pathNodeDefinitions)
+        {
+            node.Neighbors.Clear();
+            if (node.NeighborIds == null)
+            {
+                continue;
             }
 
-            foreach (Vector3Int neighbourPosition in GetNeighbours(currentPosition))
+            foreach (int neighborId in node.NeighborIds)
             {
-                if (!IsWalkable(neighbourPosition))
+                if (nodesById.TryGetValue(neighborId, out PathNode neighbor))
+                {
+                    node.Neighbors.Add(neighbor);
+                }
+            }
+        }
+
+        PathNode startNode = pathNodeDefinitions.FirstOrDefault(
+            node => node.CellPosition == startPosition);
+        PathNode targetNode = pathNodeDefinitions.FirstOrDefault(
+            node => node.CellPosition == targetPosition);
+        if (startNode == null || targetNode == null)
+        {
+            return path;
+        }
+
+        Queue<PathNode> queue = new Queue<PathNode>();
+        Dictionary<int, float> distances = new Dictionary<int, float>();
+        Dictionary<int, int> trace = new Dictionary<int, int>();
+        Dictionary<int, bool> inQueue = new Dictionary<int, bool>();
+        Dictionary<int, int> enqueueCount = new Dictionary<int, int>();
+
+        foreach (PathNode node in pathNodeDefinitions)
+        {
+            distances[node.Id] = float.PositiveInfinity;
+            trace[node.Id] = -1;
+            inQueue[node.Id] = false;
+            enqueueCount[node.Id] = 0;
+        }
+
+        distances[startNode.Id] = 0f;
+        queue.Enqueue(startNode);
+        inQueue[startNode.Id] = true;
+        enqueueCount[startNode.Id] = 1;
+
+        while (queue.Count > 0)
+        {
+            PathNode currentNode = queue.Dequeue();
+            inQueue[currentNode.Id] = false;
+
+            if (currentNode.Neighbors == null)
+            {
+                continue;
+            }
+
+            foreach (PathNode neighbor in currentNode.Neighbors)
+            {
+                if (neighbor == null || !distances.ContainsKey(neighbor.Id))
                 {
                     continue;
                 }
 
-                int newDistance = distances[currentPosition] + 1;
-                if (!distances.TryGetValue(neighbourPosition, out int currentDistance) ||
-                    newDistance < currentDistance)
-                {
-                    distances[neighbourPosition] = newDistance;
-                    previousPositions[neighbourPosition] = currentPosition;
+                float newDistance = distances[currentNode.Id] + Vector3.Distance(
+                    currentNode.CellPosition,
+                    neighbor.CellPosition);
 
-                    if (positionsInQueue.Add(neighbourPosition))
+                if (newDistance >= distances[neighbor.Id])
+                {
+                    continue;
+                }
+
+                distances[neighbor.Id] = newDistance;
+                trace[neighbor.Id] = currentNode.Id;
+
+                if (!inQueue[neighbor.Id])
+                {
+                    queue.Enqueue(neighbor);
+                    inQueue[neighbor.Id] = true;
+                    enqueueCount[neighbor.Id]++;
+
+                    if (enqueueCount[neighbor.Id] > pathNodeDefinitions.Count)
                     {
-                        positionsToVisit.Enqueue(neighbourPosition);
+                        Debug.LogError("Phát hiện chu trình âm! Không thể tìm đường đi ngắn nhất.");
+                        return new List<Vector3>();
                     }
                 }
             }
         }
 
-        return new List<Vector3Int>();
+        if (float.IsPositiveInfinity(distances[targetNode.Id]))
+        {
+            return path;
+        }
+
+        int currentId = targetNode.Id;
+        while (currentId != -1)
+        {
+            path.Add(nodesById[currentId].CellPosition);
+            if (currentId == startNode.Id)
+            {
+                path.Reverse();
+                Debug.Log($"SPFA path ({path.Count} nodes): {string.Join(" -> ", path)}");
+                return path;
+            }
+
+            currentId = trace[currentId];
+        }
+
+        return path;
     }
 
-    /// <summary>
-    /// Kiểm tra cell có thể đi qua hay không.
-    /// </summary>
-    private bool IsWalkable(Vector3Int cellPosition)
+    private void buildGraph(Dictionary<Vector3, PathNode> nodesByPosition, List<PathNode> pathNodes)
     {
-        TileType tileType = GetTileType(cellPosition);
-        return tileType == TileType.Ground ||
-               tileType == TileType.Spawn ||
-               tileType == TileType.Goal;
+        foreach (var node in pathNodes)
+        {
+            nodesByPosition.Add(node.CellPosition, node);
+        }
     }
+
+    private PathNode FindClosestNode(Vector3 position)
+    {
+
+        PathNode closestNode = null;
+
+
+        return closestNode;
+    }
+
 
     /// <summary>
     /// Kiểm tra cell có thể đặt hight tower hay không.
@@ -171,55 +241,24 @@ public class GridManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Dựng lại đường đi SPFA từ đích về nguồn bằng bảng vị trí trước đó.
+    /// Lấy vị trí node đích sau khi SPFA tìm thấy đường đi.
     /// </summary>
-    private static List<Vector3Int> BuildPath(
-        Vector3Int startCell,
-        Vector3Int targetCell,
-        Dictionary<Vector3Int, Vector3Int> previousPositions)
+    private static Vector3 BuildPath(PathNode targetNode)
     {
-        List<Vector3Int> path = new List<Vector3Int>();
-        Vector3Int currentPosition = targetCell;
-
-        while (currentPosition != startCell)
-        {
-            path.Add(currentPosition);
-            currentPosition = previousPositions[currentPosition];
-        }
-
-        path.Add(startCell);
-        path.Reverse();
-        return path;
+        return targetNode.CellPosition;
     }
 
-    /// <summary>
-    /// Trả về bốn cell láng giềng theo hướng lên, phải, xuống và trái.
-    /// </summary>
-    private static IEnumerable<Vector3Int> GetNeighbours(Vector3Int cellPosition)
-    {
-        yield return cellPosition + Vector3Int.up;
-        yield return cellPosition + Vector3Int.right;
-        yield return cellPosition + Vector3Int.down;
-        yield return cellPosition + Vector3Int.left;
-    }
 
     /// <summary>
     /// Lấy tất cả vị trí world có tile spawn trên spawn tilemap.
     /// </summary>
-    public List<Vector3> GetSpawnPoint()
+    public List<Vector3> GetFirstGraphPoint()
     {
         List<Vector3> spawnPoints = new List<Vector3>();
 
-        foreach (var cellPos in spawnTilemap.cellBounds.allPositionsWithin)
+        foreach (var point in pathGraphAsset)
         {
-            if (spawnTilemap.HasTile(cellPos))
-            {
-                // Chuyển Cell Position -> World Position
-                Vector3 worldPos = spawnTilemap.GetCellCenterWorld(cellPos);
-
-                spawnPoints.Add(worldPos);
-
-            }
+            spawnPoints.Add(point.Nodes.First().CellPosition);
         }
 
         return spawnPoints;
@@ -228,19 +267,13 @@ public class GridManager : MonoBehaviour
     /// <summary>
     /// Lấy tất cả vị trí world có tile goal trên goal tilemap.
     /// </summary>
-    public List<Vector3> GetGoalPoint()
+    public List<Vector3> GetLastGraphPoint()
     {
         List<Vector3> goalPoints = new List<Vector3>();
 
-        foreach (var cellPos in goalTilemap.cellBounds.allPositionsWithin)
+        foreach (var point in pathGraphAsset)
         {
-            if (goalTilemap.HasTile(cellPos))
-            {
-                // Chuyển Cell Position -> World Position
-                Vector3 worldPos = goalTilemap.GetCellCenterWorld(cellPos);
-
-                goalPoints.Add(worldPos);
-            }
+            goalPoints.Add(point.Nodes.Last().CellPosition);
         }
 
         return goalPoints;
